@@ -78,13 +78,20 @@ p {
     color: hsl(24, 5%, 18%);
   }
 }
-.main3 h2 {
+.main3 h2{
   color: hsl(332, 51%, 32%);
   font-size: 2em;
+  margin-top: 1em;
 }
 .main4-text {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 1em 0;
+}
+.main4-red , ol{
+  color: hsl(332, 51%, 32%);
+}
+.main5 h2 {
+  margin-bottom: 1em;
 }

@@ -92,6 +92,12 @@ p {
   margin-top: 1em;
   font-family: '';
 }
+.main-ol {
+  margin: 1em 0;
+  li p{
+    margin: 1em 0;
+  }
+}
 .main4-text {
   display: flex;
   justify-content: space-around;
@@ -103,4 +109,21 @@ p {
 }
 .main5 h2 {
   margin-bottom: 1em;
+}
+
+@media (min-width: 1440px) {
+  body {
+    padding: 2em 10em;
+    background-color: pink;
+    color: black;
+  }
+  header,
+  main {
+    padding: 2em 7em;
+    background-color: #fff;
+    border-radius: 25px;
+  }
+  header img {
+    border-radius: 25px;
+  }
 }
